@@ -13,7 +13,7 @@ collection = client.get_or_create_collection(
 )
 
 # Try a realistic question
-query = "my colleague keeps sending me inappropriate messages at work"
+query = "someone is sharing my private photos online"
 
 results = collection.query(
     query_texts=[query],
