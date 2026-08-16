@@ -1,45 +1,117 @@
+BHARATIYA NYAYA SANHITA, 2023 (BNS) — with corresponding Indian Penal Code (IPC), 1860 references
+Sections relating to criminal force, assault, and modesty offences against women
 
-SECTION 74. Assault or use of criminal force to woman with intent to outrage her modesty
-Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will 
-thereby outrage her modesty, shall be punished with imprisonment of either description for a term which 
-shall not be less than one year but which may extend to five years, and shall also be liable to fine.
+================================================================
+SECTION 74, BNS (= SECTION 354, IPC) — ASSAULT OR USE OF CRIMINAL FORCE TO WOMAN WITH INTENT TO OUTRAGE HER MODESTY
+================================================================
 
-SECTION 75. Sexual harassment
-(1) A man committing any of the following acts:— 
-(i) physical contact and advances involving unwelcome and explicit sexual overtures; or 
-(ii) a demand or request for sexual favours; or 
-(iii) showing pornography against the will of a woman; or 
-(iv) making sexually coloured remarks, 
-shall be guilty of the offence of sexual harassment. 
-(2) Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) of                      
-sub-section (1) shall be punished with rigorous imprisonment for a term which may extend to three years, 
-or with fine, or with both. 
-(3) Any man who commits the offence specified in clause (iv) of sub-section (1) shall be punished 
-with imprisonment of either description for a term which may extend to one year, or with fine, or with 
-both. 
+Whoever assaults or uses criminal force to any woman, intending to outrage or
+knowing it to be likely that he will thereby outrage her modesty, shall be
+punished with imprisonment of either description for a term which shall not
+be less than one year but which may extend to five years, and shall also be
+liable to fine.
 
-SECTION 78. Stalking
-(1) Any man who— 
-(i) follows a woman and contacts, or attempts to contact such woman to foster personal 
-interaction repeatedly despite a clear indication of disinterest by such woman; or 
-(ii) monitors the use by a woman of the internet, e-mail or any other form of electronic 
-communication, 
-commits the offence of stalking: 
-Provided that such conduct shall not amount to stalking if the man who pursued it proves that— 
-(i) it was pursued for the purpose of preventing or detecting crime and the man accused of 
-stalking had been entrusted with the responsibility of prevention and detection of crime by the State; 
-or 
-(ii) it was pursued under any law or to comply with any condition or requirement imposed by any 
-person under any law; or 
-(iii) in the particular circumstances such conduct was reasonable and justified. 
-(2) Whoever commits the offence of stalking shall be punished on first conviction with imprisonment 
-of either description for a term which may extend to three years, and shall also be liable to fine; and be 
-punished on a second or subsequent conviction, with imprisonment of either description for a term which 
-may extend to five years, and shall also be liable to fine. 
+================================================================
+SECTION 75, BNS (= SECTION 354A, IPC) — SEXUAL HARASSMENT
+================================================================
 
-SECTION 79. Word, gesture or act intended to insult modesty of a woman
-Whoever, intending to insult 
-the modesty of any woman, utters any words, makes any sound or gesture, or exhibits any object in any 
-form, intending that such word or sound shall be heard, or that such gesture or object shall be seen, by 
-such woman, or intrudes upon the privacy of such woman, shall be punished with simple imprisonment 
-for a term which may extend to three years, and also with fine. 
+(1) A man committing any of the following acts—
+(i) physical contact and advances involving unwelcome and explicit sexual
+overtures; or
+(ii) a demand or request for sexual favours; or
+(iii) showing pornography against the will of a woman; or
+(iv) making sexually coloured remarks,
+shall be guilty of the offence of sexual harassment.
+
+(2) An offence under clause (i), (ii), or (iii) of sub-section (1) is
+punishable with rigorous imprisonment up to three years, or fine, or both.
+
+(3) An offence under clause (iv) of sub-section (1) is punishable with
+imprisonment of either description up to one year, or fine, or both.
+
+================================================================
+SECTION 78, BNS (= SECTION 354D, IPC) — STALKING
+================================================================
+
+(1) Any man who—
+(i) follows a woman and contacts, or attempts to contact her to foster
+personal interaction repeatedly, despite a clear indication of disinterest by
+her; or
+(ii) monitors her use of the internet, email, or any other form of electronic
+communication,
+commits the offence of stalking.
+
+Exceptions apply where such conduct was pursued to prevent or detect crime by
+a person entrusted with that responsibility by the State, to comply with a
+legal requirement, or where the conduct was reasonable and justified in the
+circumstances.
+
+(2) First conviction: imprisonment up to three years, and fine. Second or
+subsequent conviction: imprisonment up to five years, and fine.
+
+================================================================
+SECTION 79, BNS (= SECTION 509, IPC) — WORD, GESTURE OR ACT INTENDED TO INSULT THE MODESTY OF A WOMAN
+================================================================
+
+Whoever, intending to insult the modesty of any woman, utters any words,
+makes any sound or gesture, or exhibits any object, intending that it be
+heard or seen by such woman, or intrudes upon her privacy, shall be punished
+with simple imprisonment for a term which may extend to three years, and also
+with fine.
+
+================================================================
+SECTION 63, BNS (= SECTION 375, IPC) — RAPE (DEFINITION)
+================================================================
+
+A man commits rape if he performs sexual intercourse or specified sexual acts
+with a woman without her consent, or in situations including: against her
+will; without her consent; by obtaining consent through fear, fraud, or
+coercion; when she is under 18 years of age (consent is legally irrelevant in
+this case); or when she is unable to communicate consent.
+
+Exception: sexual intercourse by a man with his own wife, where the wife is
+not under eighteen years of age, is not rape under this section. (Note: this
+marital exception does not apply if the spouses are living separately — see
+Section 67, BNS, below. This exception remains legally and socially
+contested and has been challenged before the Supreme Court.)
+
+================================================================
+SECTION 64, BNS (= SECTION 376, IPC) — PUNISHMENT FOR RAPE
+================================================================
+
+Rape is punishable with rigorous imprisonment of not less than ten years,
+which may extend to imprisonment for life, along with a fine. Aggravated
+categories — such as rape of a woman under 16, rape by a person in a
+position of authority (police officer, public servant, member of armed
+forces), or repeat offences — carry higher minimum sentences, up to life
+imprisonment. Where the act results in the victim's death or a persistent
+vegetative state, punishment can extend to the death penalty. This offence is
+cognizable, non-bailable, and triable exclusively by a Court of Session.
+
+================================================================
+SECTION 67, BNS (= SECTION 376B, IPC) — SEXUAL INTERCOURSE BY HUSBAND WITH WIFE LIVING SEPARATELY, WITHOUT HER CONSENT
+================================================================
+
+Whoever has sexual intercourse with his own wife, who is living separately
+(whether under a decree of judicial separation or otherwise), without her
+consent, shall be punished with imprisonment of two to seven years, and
+shall also be liable to fine.
+
+================================================================
+SECTION 76, BNS (= SECTION 354B, IPC) — ASSAULT OR USE OF CRIMINAL FORCE WITH INTENT TO DISROBE A WOMAN
+================================================================
+
+Any man who assaults or uses criminal force on a woman, or abets such an
+act, with the intention of disrobing her or compelling her to be naked, is
+punishable with imprisonment of not less than three years, which may extend
+to seven years, along with a fine.
+
+================================================================
+SECTION 77, BNS (= SECTION 354C, IPC) — VOYEURISM
+================================================================
+
+Any man who watches or captures the image of a woman engaging in a private
+act in circumstances where she would usually expect not to be observed —
+without her consent — commits the offence of voyeurism. First conviction:
+imprisonment of one to three years, and fine. Second or subsequent
+conviction: imprisonment of three to seven years, and fine.

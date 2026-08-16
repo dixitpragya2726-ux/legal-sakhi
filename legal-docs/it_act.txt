@@ -1,44 +1,70 @@
+THE INFORMATION TECHNOLOGY ACT, 2000
 
-THE INFORMATION TECHNOLOGY ACT, 2000 
+================================================================
+SECTION 66 — COMPUTER RELATED OFFENCES
+================================================================
 
- SECTION 66. Computer related offences
-If any person, dishonestly or fraudulently, does any act referred to 
-in section 43, he shall be punishable with imprisonment for a term which may extend to three years or 
-with fine which may extend to five lakh rupees or with both. 
-Explanation.–For the purposes of this section,– 
-(a) the word “dishonestly” shall have the meaning assigned to it in section 24 of the Indian Penal 
-Code (45 of 1860); 
-(b) the word “fraudulently” shall have the meaning assigned to it in section 25 of the Indian Penal 
-Code (45 of 1860).
+If any person, dishonestly or fraudulently, does any act referred to in
+Section 43 (unauthorized access to a computer system), he shall be punishable
+with imprisonment up to three years, or fine up to five lakh rupees, or both.
 
+(The terms "dishonestly" and "fraudulently" carry the meanings assigned to
+them under Sections 24 and 25 of the Indian Penal Code, 1860 respectively.)
 
-SECTION 66E. Punishment for violation of privacy.
-Whoever, intentionally or knowingly captures, publishes 
-or transmits the image of a private area of any person without his or her consent, under circumstances 
-violating the privacy of that person, shall be punished with imprisonment which may extend to three years 
-or with fine not exceeding two lakh rupees, or with both. 
-Explanation.–For the purposes of this section– 
-(a) “transmit” means to electronically send a visual image with the intent that it be viewed by a 
-person or persons; 
-(b) “capture”, with respect to an image, means to videotape, photograph, film or record by any 
-means; 
-(c) “private area” means the naked or undergarment clad genitals, public area, buttocks or female 
-breast: 
-(d) “publishes” means reproduction in the printed or electronic form and making it available for 
-public; 
-(e) “under circumstances violating privacy” means circumstances in which a person can have a 
-reasonable expectation that– 
-(i) he or she could disrobe in privacy, without being concerned that an image of his private 
-area was being captured; or 
-(ii) any part of his or her private area would not be visible to the public, regardless of whether 
-that person is in a public or private place. 
+================================================================
+SECTION 66E — PUNISHMENT FOR VIOLATION OF PRIVACY
+================================================================
 
-SECTION 67. Punishment for publishing or transmitting obscene material in electronic form
-–Whoever 
-publishes or transmits or causes to be published or transmitted in the electronic form, any material which 
-is lascivious or appeals to the prurient interest or if its effect is such as to tend to deprave and corrupt 
-persons who are likely, having regard to all relevant circumstances, to read, see or hear the matter 
-contained or embodied in it, shall be punished on first conviction with imprisonment of either description 
-for a term which may extend to three years and with fine which may extend to five lakh rupees and in the 
-event of second or subsequent conviction with imprisonment of either description for a term which may 
-extend to five years and also with fine which may extend to ten lakh rupees. 
+Whoever, intentionally or knowingly captures, publishes, or transmits the
+image of a private area of any person without their consent, under
+circumstances violating that person's privacy, shall be punished with
+imprisonment up to three years, or fine up to two lakh rupees, or both.
+
+Key definitions:
+- "transmit" — electronically sending a visual image intending it be viewed
+  by a person or persons.
+- "capture" — to videotape, photograph, film, or record by any means.
+- "private area" — naked or undergarment-clad genitals, pubic area, buttocks,
+  or female breast.
+- "publishes" — reproduction in printed or electronic form, made available to
+  the public.
+- "under circumstances violating privacy" — where a person could reasonably
+  expect they could disrobe in privacy without their private area being
+  captured, or that their private area would not be visible to the public
+  regardless of the setting.
+
+================================================================
+SECTION 66C — PUNISHMENT FOR IDENTITY THEFT
+================================================================
+
+Whoever, fraudulently or dishonestly uses another person's electronic
+signature, password, or any other unique identification feature, shall be
+punished with imprisonment up to three years, and fine up to one lakh
+rupees. This applies, for example, when someone hacks or uses another
+person's stolen login credentials to send messages or access accounts under
+their identity.
+
+================================================================
+SECTION 66D — PUNISHMENT FOR CHEATING BY PERSONATION USING COMPUTER RESOURCE
+================================================================
+
+Whoever, by means of any communication device or computer resource, cheats
+by personation (pretending to be someone else online to deceive or gain
+something dishonestly), shall be punished with imprisonment up to three
+years, and fine up to one lakh rupees. This covers phishing, fake profiles
+used to defraud someone, and online impersonation scams. Sections 66C and
+66D are often invoked together when identity theft leads to an impersonation-
+based cheating act.
+
+================================================================
+SECTION 67 — PUNISHMENT FOR PUBLISHING OR TRANSMITTING OBSCENE MATERIAL IN ELECTRONIC FORM
+================================================================
+
+Whoever publishes or transmits, or causes to be published or transmitted, in
+electronic form, any material that is lascivious, appeals to the prurient
+interest, or tends to deprave and corrupt persons likely to read, see, or
+hear it, shall be punished:
+- On first conviction: imprisonment up to three years, and fine up to five
+  lakh rupees.
+- On second or subsequent conviction: imprisonment up to five years, and fine
+  up to ten lakh rupees.
