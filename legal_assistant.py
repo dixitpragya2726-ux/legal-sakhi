@@ -82,3 +82,13 @@ Draft a formal, ready-to-file complaint letter. Include: complainant details as 
 
     response = model.generate_content(prompt)
     return response.text, sources
+
+def get_evidence_checklist():
+    return [
+        "Do not delete messages, chats, or emails",
+        "Take screenshots with date and time visible",
+        "Save call logs and recordings if any",
+        "Note down witness details if anyone saw or knows about the incident",
+        "Write down what happened as soon as possible, with dates and times, while it's fresh in memory",
+        "Report as early as possible to the relevant authority"
+    ]
