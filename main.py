@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from legal_assistant import generate_answer, get_helplines
+from legal_assistant import generate_answer, get_helplines, draft_complaint
+
 
 app = FastAPI()
 
@@ -27,3 +28,8 @@ def ask_question(request: QueryRequest):
 @app.get("/helplines")
 def helplines_endpoint():
     return {"helplines": get_helplines()}
+
+@app.post("/draft-complaint")
+def draft_complaint_endpoint(request: QueryRequest):
+    draft, sources = draft_complaint(request.question)
+    return {"draft": draft, "sources": sources}

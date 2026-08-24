@@ -68,3 +68,17 @@ def get_helplines():
         {"name": "Childline", "number": "1098"},
         {"name": "Cyber Crime Helpline", "number": "1930"}
     ]
+
+def draft_complaint(user_query):
+    chunks, sources = retrieve_relevant_chunks(user_query)
+    legal_context = "\n\n".join(chunks)
+
+    prompt = f"""Based on this situation: {user_query}
+
+And this relevant law:
+{legal_context}
+
+Draft a formal, ready-to-file complaint letter. Include: complainant details as placeholders [Your Name], [Address], [Date], incident description based on what was shared, the relevant law cited, and a formal closing. Keep it professional and clear."""
+
+    response = model.generate_content(prompt)
+    return response.text, sources
