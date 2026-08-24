@@ -19,7 +19,7 @@ collection = chroma_client.get_or_create_collection(
     embedding_function=embedding_fn
 )
 
-def retrieve_relevant_chunks(query, n_results=3):
+def retrieve_relevant_chunks(query, n_results=5):
     """Search ChromaDB for the most relevant legal chunks."""
     results = collection.query(query_texts=[query], n_results=n_results)
     chunks = results["documents"][0]
@@ -59,3 +59,12 @@ if __name__ == "__main__":
     print(f"Question: {query}\n")
     print(f"Answer:\n{answer}\n")
     print(f"Sources used: {', '.join(set(sources))}")
+
+def get_helplines():
+    return [
+        {"name": "Women Helpline", "number": "181"},
+        {"name": "Police Helpline", "number": "1091"},
+        {"name": "Emergency", "number": "112"},
+        {"name": "Childline", "number": "1098"},
+        {"name": "Cyber Crime Helpline", "number": "1930"}
+    ]
