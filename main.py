@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from legal_assistant import generate_answer, get_helplines, draft_complaint, get_evidence_checklist
+from legal_assistant import generate_answer, get_helplines, draft_complaint, get_evidence_checklist, get_nearby_centers
 
 
 app = FastAPI()
@@ -37,3 +37,9 @@ def draft_complaint_endpoint(request: QueryRequest):
 @app.get("/evidence-checklist")
 def evidence_checklist_endpoint():
     return {"checklist": get_evidence_checklist()}
+
+
+@app.get("/nearby-help")
+def nearby_help_endpoint(city: str = ""):
+    centers = get_nearby_centers(city)
+    return {"centers": centers}

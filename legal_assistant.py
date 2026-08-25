@@ -92,3 +92,22 @@ def get_evidence_checklist():
         "Write down what happened as soon as possible, with dates and times, while it's fresh in memory",
         "Report as early as possible to the relevant authority"
     ]
+
+
+import json
+
+def get_nearby_centers(search_term=""):
+    with open("legal_aid_centers.json", "r", encoding="utf-8") as f:
+        centers = json.load(f)
+    
+    if not search_term:
+        return centers
+    
+    search_term = search_term.lower()
+    matching = [
+        c for c in centers
+        if search_term in c.get("address", "").lower()
+        or search_term in c.get("scope", "").lower()
+        or search_term in c.get("name", "").lower()
+    ]
+    return matching if matching else centers
