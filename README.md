@@ -87,6 +87,24 @@ NGOs across India, for the map/resource-finder feature.
 
 **How the backend should use this:** the JSON version is ready to load
 directly — each object is one map pin / resource card, with `latitude`/
+
+
+# Legal Sakhi — Backend
+
+AI-powered legal & post-incident support platform for women. This is the backend (FastAPI + ChromaDB + Gemini).
+
+Frontend repo: https://github.com/dixitpragya2726-ux/LEGAL-SAKHI-FRONTEND
+
+## Endpoints
+- GET /health
+- POST /ask — { "question": "..." }
+- POST /draft-complaint — { "question": "..." }
+- GET /helplines
+
+## Run locally
+1. `venv\Scripts\activate`
+2. `pip install -r requirements.txt` (or install packages listed in main.py imports)
+3. `uvicorn main:app --reload`
 `longitude` as `null` for phone-only national helplines (they shouldn't get
 a map pin, just a "call" button in the UI).
 

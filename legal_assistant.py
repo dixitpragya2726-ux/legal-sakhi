@@ -19,7 +19,7 @@ collection = chroma_client.get_or_create_collection(
     embedding_function=embedding_fn
 )
 
-def retrieve_relevant_chunks(query, n_results=3):
+def retrieve_relevant_chunks(query, n_results=5):
     """Search ChromaDB for the most relevant legal chunks."""
     results = collection.query(query_texts=[query], n_results=n_results)
     chunks = results["documents"][0]
@@ -59,3 +59,55 @@ if __name__ == "__main__":
     print(f"Question: {query}\n")
     print(f"Answer:\n{answer}\n")
     print(f"Sources used: {', '.join(set(sources))}")
+
+def get_helplines():
+    return [
+        {"name": "Women Helpline", "number": "181"},
+        {"name": "Police Helpline", "number": "1091"},
+        {"name": "Emergency", "number": "112"},
+        {"name": "Childline", "number": "1098"},
+        {"name": "Cyber Crime Helpline", "number": "1930"}
+    ]
+
+def draft_complaint(user_query):
+    chunks, sources = retrieve_relevant_chunks(user_query)
+    legal_context = "\n\n".join(chunks)
+
+    prompt = f"""Based on this situation: {user_query}
+
+And this relevant law:
+{legal_context}
+
+Draft a formal, ready-to-file complaint letter. Include: complainant details as placeholders [Your Name], [Address], [Date], incident description based on what was shared, the relevant law cited, and a formal closing. Keep it professional and clear."""
+
+    response = model.generate_content(prompt)
+    return response.text, sources
+
+def get_evidence_checklist():
+    return [
+        "Do not delete messages, chats, or emails",
+        "Take screenshots with date and time visible",
+        "Save call logs and recordings if any",
+        "Note down witness details if anyone saw or knows about the incident",
+        "Write down what happened as soon as possible, with dates and times, while it's fresh in memory",
+        "Report as early as possible to the relevant authority"
+    ]
+
+
+import json
+
+def get_nearby_centers(search_term=""):
+    with open("legal_aid_centers.json", "r", encoding="utf-8") as f:
+        centers = json.load(f)
+    
+    if not search_term:
+        return centers
+    
+    search_term = search_term.lower()
+    matching = [
+        c for c in centers
+        if search_term in c.get("address", "").lower()
+        or search_term in c.get("scope", "").lower()
+        or search_term in c.get("name", "").lower()
+    ]
+    return matching if matching else centers
